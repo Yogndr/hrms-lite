@@ -75,3 +75,14 @@ Leave management, payroll, and advanced HR features are out of scope
 UI is designed for desktop-first; mobile responsiveness is minimal
 
 Attendance cannot be marked twice for the same date
+
+
+Assumptions / Limitations
+
+Single admin user (no authentication implemented)
+
+Leave management, payroll, and advanced HR features are out of scope
+
+UI is designed for desktop-first; mobile responsiveness is minimal
+
+Attendance cannot be marked twice for the same date
