@@ -1,5 +1,6 @@
 fastapi
-uvicorn[standard]
+uvicorn
+pydantic[email]
 sqlalchemy
-psycopg2-binary  # if using PostgreSQL
+psycopg2-binary
 python-dotenv
