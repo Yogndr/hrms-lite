@@ -23,7 +23,7 @@ app.add_middleware(
 app.include_router(employee.router, prefix="/employees", tags=["Employees"])
 app.include_router(attendance.router, prefix="/attendance", tags=["Attendance"])
 
-# Run locally
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+# # Run locally
+# if __name__ == "__main__":
+#     import uvicorn
+#     uvicorn.run(app, host="0.0.0.0", port=8000)
